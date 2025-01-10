@@ -12,17 +12,34 @@ I completed this project as part of my journey at 42Porto.
 To run this game on your local machine, follow these steps:
 
 1. **Clone the Repository**:
+   ```bash
+   https://github.com/luisneves10/so_long.git
 2. **Navigate to the project Directory:**
+   ```bash
+   cd so_long
 3. **Compile it**<br>
-   Run "make" or "make bonus", to test the both parts of this project
-3. **Run the game**<br>
-   After compiling, terminal will give you the instructions to run the game.
+   ```bash
+   make
+   ```
+   or
+   ```bash
+   make bonus
+   ```
+4. **Run the game**<br>
+   ```bash
+   ./so_long <map_name.ber>
+   ```
+   or
+   ```bash
+   ./so_long_bonus <map_name.ber>
+   ```
 
 ## 🕹️ How to Play
 
 - Use WASD keys to move the player character.<br>
-- Avoid obstacles and collect the coins to open the exit..<br>
-- The game ends, once you get to the exit..<br>
+- Collect the coins to open the exit.<br>
+- Avoid obstacles in order not to lose! (bonus part only)<br>
+- The game ends once you get to the exit.<br>
 
 ## 📚 Learning Experience
 
